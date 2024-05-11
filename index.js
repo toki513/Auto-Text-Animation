@@ -1,7 +1,9 @@
 const container = document.querySelector(".container")
 
-const careers = ["student", "dreamer" ,"web developer","Freelancer"];
+const careers = ["student", "dreamer" ,"web developer", "content Creator ","Freelancer"];
+
+let careerIndex = 0;
 
 container.innerHTML = `
-    <h1>I am a ${careers[2]}</h1>
+    <h1>I am a ${careers[careerIndex]}</h1>
 `;
